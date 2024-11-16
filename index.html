@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Jimmy's Portfolio Website</title>
+    <title>Jimmy's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/69f617da3a.js" crossorigin="anonymous"></script>
 </head>
@@ -9,19 +9,19 @@
     <div class="navigation-bar">
         <div class="nav-title">Jimmy's Portfolio Website</div>
         <ul>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Experiences</li>
-            <li>Projects</li>
-            <li>Contacts</li>
+            <li><a href="#about-me"><strong>About</strong></a></li>
+            <li><a href="#skills"><strong>Skills</strong></a></li>
+            <li><a href="#experiences"><strong>Experiences</strong></a></li>
+            <li><a href="#projects"><strong>Projects</strong></a></li>
+            <li><a href="#contacts"><strong>Contacts</strong></a></li>
         </ul>
     </div>
 
-    <div class="about-me">
+    <div id="about-me" class="about-me">
         <div class="text-content">
             <p id="p1">
                 <span style="display: block; text-align: center; font-size: 24px;">
-                    <strong>~About Me~</strong>
+                    <strong>About Me</strong>
                 </span> 
                 <br>
                 <strong>Greetings my full name is Jimmy Yang.</strong> 
@@ -29,21 +29,8 @@
                 I am a student at Curtin University studying software engineering approaching my final year. 
                 <br> 
                 I excel in both independent and team settings where I can quickly adapt to working autonomously or collaboratively whenever required.
-                I have manifested strong leadership skills through volunteer experiences, group assessments and work experiences. <br> These skills include: <br>
+                I have manifested strong leadership skills through volunteer experiences, group assessments and work experiences.
             </p>
-            <ul>
-                <li>Dedication</li>
-                <li>Perseverance</li>
-                <li>Strong Teamwork</li>
-                <li>Active Communication</li>
-                <li>Effective Time Management</li>
-                <li>Meticulous Attention To Detail</li>
-            </ul>
-        </div>
-        <div class="image-container">
-            <span class="overlay-text">My Favourite PFP</span>
-            <img src="/images/panda.png" alt="Panda Icon">
-
             <div class="icon-container">
                 <a href="https://www.instagram.com/0hlook_/" target="_blank" title="Instagram">
                     <i class="fa-brands fa-square-instagram fa-3x"></i></a>
@@ -54,9 +41,77 @@
                 <a href="https://github.com/0hLook" target="_blank" title="GitHub">
                     <i class="fa-brands fa-square-github fa-3x"></i></a>
             </div>
-            
-            
         </div>
+        <div class="image-container">
+            <span class="overlay-text">My Favourite PFP</span>
+            <img src="/images/panda.png" alt="Panda Icon"> 
+        </div>
+    </div>
+
+    <div id="skills" class="skills">
+        <br> <br>
+        <p id="p2">My Skills</p>
+        <br>
+        <div class="skills-container">
+            <!-- Image Section -->
+            <div class="skills-image">
+                <img src="/images/nerdpanda.png" alt="Nerdpanda Icon" />
+            </div>
+    
+            <!-- Icons Section -->
+            <div class="skills-icons">
+                <div class="LanguageIcons1">
+                    <div class="icon-border">
+                        <div class="hover-text">Python</div>
+                        <i class="fa-brands fa-python fa-3x" title="Python"></i>
+                    </div>
+                    <div class="icon-border">
+                        <div class="hover-text">Java</div>
+                        <i class="fa-brands fa-java fa-3x" title="Java"></i>
+                    </div>
+                    <div class="icon-border">
+                        <div class="hover-text">C</div>
+                        <i class="fa-solid fa-c fa-3x" title="C"></i>
+                    </div>
+                    <div class="icon-border">
+                        <div class="hover-text">CSharp</div>
+                        <img src="/images/csharp.png" width="36px" height="50px" title="CSharp">
+                    </div>
+                </div>
+                <div class="LanguageIcons2">
+                    <div class="icon-border">
+                        <div class="hover-text">SQL</div>
+                        <i class="fa-solid fa-database fa-3x" title="SQL"></i>
+                    </div>
+                    <div class="icon-border">
+                        <div class="hover-text">HTML</div>
+                        <i class="fa-brands fa-html5 fa-3x" title="HTML"></i>
+                    </div>
+                    <div class="icon-border">
+                        <div class="hover-text">CSS</div>
+                        <i class="fa-brands fa-css3 fa-3x" title="CSS"></i>
+                    </div>
+                    <div class="icon-border">
+                        <div class="hover-text">Kotlin</div>
+                        <img src="/images/kotlin.png" width="36px" height="50px" title="Kotlin">
+                    </div>
+                    <div class="icon-border">
+                        <div class="hover-text">JavaScript</div>
+                        <i class="fa-brands fa-square-js fa-3x" title="JavaScript"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="SkillsInfo">
+        <br>
+        <p id ="p3">Along with those skills listed above, I am also experienced in using the following coding environments:
+        <br>Android Studio (Kotlin & Java)
+        <br>Visual Studio Code (Python, Java, C, HTML, CSS, JS)
+        <br>Visual Studio (C# including .NET Framework, ASP.NET MVC & SQLite)
+        <br>VIM (Python, Java, MySQL)</p>
+
     </div>
 
 </body>
