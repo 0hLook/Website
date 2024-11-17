@@ -9,6 +9,11 @@ body {
 }
 
 .navigation-bar {
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 97%; 
+    z-index: 1000; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,6 +123,18 @@ body {
     font-size: 24px;
     font-weight: bold;
 }
+
+#p2 span {
+    display: block; /* Make the span take up the full width */
+    background-color: #181717;
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px; /* Adjust padding to create space around the text */
+    border-radius: 10px; /* Optional: Adds rounded corners to the box */
+    font-family : "Proxima Nova", cursive;
+}
+
 .skills {
     margin-left: 700px;
 }
@@ -179,6 +196,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-top: 70px;
 }
 
 .LanguageIcons2 {
@@ -242,11 +260,24 @@ body {
 
 .slider-wrapper {
     position: relative;
-    max-width: 100vw;
+    max-width: 60vw;
     margin: auto;
     overflow: hidden;
     border-radius: 15px;
     border: 5px solid aliceblue; 
+    animation: glowing-border 1s infinite alternate;
+}
+
+@keyframes glowing-border {
+    0% {
+        box-shadow: 0 0 0px white;
+    }
+    50% {
+        box-shadow: 0 0 40px white;
+    }
+    100% {
+        box-shadow: 0 0 0px white;
+    }
 }
 
 .slider-wrapper img {
@@ -324,3 +355,88 @@ body {
 .slider-nav a:hover {
     opacity: 1;
 }
+
+.container2 {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin-left: 160px;
+  }
+  
+.sidebar2 {
+    background-color: #222;
+    padding: 20px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.tab-button {
+    background-color: #333;
+    color: #f5f5f5;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+.tab-button.active {
+    background-color: #d4af37;
+    color: #000;
+  }
+  
+.tab-button:hover {
+    background-color: #444;
+  }
+  
+.content2 {
+    background-color: #1e1e1e;
+    width: 75%;
+    padding: 20px;
+    border-left: 2px solid #333;
+  }
+  
+.tab-content {
+    display: none;
+  }
+  
+.tab-content.active {
+    display: block;
+  }
+  
+.education-box {
+    background-color: #333;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+#p4 {
+    color: whitesmoke;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 220px;
+}  
+
+#p5 {
+    color: whitesmoke;
+}
+
+#OneH2 {
+    color:whitesmoke
+}
+
+#OneH3 {
+    color:whitesmoke
+}
+
+.contact-box {
+    background-color: #1e1e1e;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 155px;
+    width: 35%;
+  }

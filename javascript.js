@@ -13,3 +13,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
     setInterval(showNextSlide, 4000); // Change slide every 4.0 seconds
 });
+
+document.querySelectorAll('.tab-button').forEach(button => {
+    button.addEventListener('click', () => {
+      // Remove active class from all buttons
+      document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+  
+      // Add active class to the clicked button
+      button.classList.add('active');
+  
+      // Hide all content sections
+      document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+  
+      // Show the corresponding content
+      const tabId = button.getAttribute('data-tab');
+      document.getElementById(tabId).classList.add('active');
+    });
+  });
