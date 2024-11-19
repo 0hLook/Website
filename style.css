@@ -468,3 +468,154 @@ body {
     text-align: center; 
     white-space: nowrap
 }
+
+@media screen and (max-width: 600px) {
+    .navigation-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navigation-bar ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .about-me {
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .text-content {
+        max-width: 100%;
+    }
+
+    .image-container {
+        max-width: 80%;
+        margin: 10px auto;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .skills-icons {
+        margin-right: 0;
+    }
+
+    .container {
+        margin: 20px;
+    }
+
+    .container2 {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .sidebar2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .content2 {
+        width: 100%;
+        border-left: none;
+    }
+
+    .ContactsAndPanda {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .contact-box {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .image-container2 img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .overlay-text {
+        margin-left: 0;
+    }
+}
+
+/* Medium screens (tablets, 600px to 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .navigation-bar {
+        padding: 10px;
+    }
+
+    .about-me {
+        max-width: 85%;
+    }
+
+    .image-container {
+        max-width: 50%;
+    }
+
+    .skills-container {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .skills-icons {
+        margin-right: 100px;
+    }
+
+    .container2 {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .sidebar2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .content2 {
+        width: 100%;
+        border-left: none;
+    }
+
+    .contact-box {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .image-container2 img {
+        max-width: 100%;
+    }
+}
+
+/* Large screens (desktops, greater than 1024px) */
+@media screen and (min-width: 1025px) {
+    .navigation-bar {
+        width: 97%;
+    }
+
+    .about-me {
+        margin: 50px auto;
+        max-width: 80%;
+    }
+
+    .skills-container {
+        
+    }
+
+    .contact-box {
+        margin-left: 155px;
+    }
+}
