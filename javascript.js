@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    setInterval(showNextSlide, 4000); // Change slide every 4.0 seconds
+    setInterval(showNextSlide, 5000); // Change slide every 5.0 seconds
 });
 
 document.querySelectorAll('.tab-button').forEach(button => {
