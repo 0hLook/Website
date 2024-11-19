@@ -496,7 +496,7 @@ body {
 
     .skills-container {
         flex-direction: column;
-        max-width: 90%;
+        max-width: 30%;
     }
 
     .skills-image img {
