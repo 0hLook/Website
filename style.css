@@ -4,7 +4,7 @@ html {
 
 body {
     background-color: rgb(15, 15, 15);
-    font-family : "Proxima Nova", cursive;
+    font-family : "Proxima Nova";
     margin: 0;
 }
 
@@ -67,7 +67,7 @@ body {
 
 #p1 {
     color: whitesmoke;
-    font-family : "Proxima Nova", cursive;
+    font-family : "Proxima Nova";
     padding: 10px;
     margin-top: 50px;
 }
@@ -114,14 +114,14 @@ body {
 }
 
 #p2 span {
-    display: block; /* Make the span take up the full width */
+    display: block; 
     background-color: #181717;
     color: whitesmoke;
     font-size: 24px;
     font-weight: bold;
-    padding: 10px; /* Adjust padding to create space around the text */
-    border-radius: 10px; /* Optional: Adds rounded corners to the box */
-    font-family : "Proxima Nova", cursive;
+    padding: 10px; 
+    border-radius: 10px; 
+    font-family : "Proxima Nova";
 }
 
 .skills {
@@ -232,7 +232,7 @@ body {
 
 #p3 {
     color: whitesmoke;
-    font-family : "Proxima Nova", cursive;
+    font-family : "Proxima Nova";
     display: flex;
     justify-content: center;
     align-items: flex-start; 
