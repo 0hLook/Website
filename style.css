@@ -500,8 +500,7 @@ body {
     }
 
     .skills-container {
-        flex-direction: column;
-        max-width: 100%;
+
     }
 
     .skills-image img {
