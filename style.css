@@ -496,10 +496,13 @@ body {
     
     .skills {
         flex-direction: column;
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .skills-container {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
 
     }
 
