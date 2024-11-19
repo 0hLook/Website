@@ -522,22 +522,13 @@ body {
     }
 
     .skills-icons {
-
         display: flex;
         flex-wrap: wrap; /* Allow wrapping for icons */
+        justify-content: center; /* Center icons horizontally */
         gap: 10px; /* Add space between icons */
         margin-top: 10px;
     }
 
-    .skills-icons .icon-border {
-        width: 50px; /* Adjust size for smaller screens */
-        height: 50px;
-        display: flex;
-
-        background-color: #222; /* Optional: Background for icons */
-        border-radius: 5px;
-        padding: 5px; /* Add padding */
-    }
 
     .skills-icons img {
         width: 36px; /* Adjust image size */
@@ -545,7 +536,7 @@ body {
     }
 
     .MoreLanSoon {
-
+        text-align: center;
         margin-top: 20px;
         font-size: 14px; /* Adjust font size for better readability */
     }
