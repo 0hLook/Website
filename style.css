@@ -495,39 +495,18 @@ body {
     }
 
     .skills-container {
-        display: flex;
-        flex-direction: column; /* Stack content vertically */
-        align-items: center; /* Center align all child elements */
-        max-width: 100%; /* Take full width of the screen */
-        margin: 0 auto; /* Ensure container stays centered */
-        padding: 20px; /* Add spacing inside the container */
-        text-align: center; /* Center-align text */
+        flex-direction: column;
+        max-width: 90%;
     }
 
     .skills-image img {
-        max-width: 80%; /* Scale image to fit smaller screens */
-        height: auto; /* Maintain aspect ratio */
-        margin: 0 auto 20px; /* Center and add spacing below */
-        display: block;
+        max-width: 80%;
+        margin: 10px auto;
     }
 
     .skills-icons {
-        display: flex;
-        flex-wrap: wrap; /* Allow icons to wrap to new rows */
-        justify-content: center; /* Center the icons */
-        gap: 10px; /* Add spacing between icons */
-        margin-top: 10px;
-    }
-
-    .skills-icons .icon-border {
-        padding: 10px; /* Adjust padding for smaller screens */
-        width: 50px; /* Adjust icon size */
-        height: 50px;
-        background-color: #222; /* Background color for better visibility */
-        border-radius: 5px; /* Round corners */
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        max-width: 90%;
     }
 
     .container {
