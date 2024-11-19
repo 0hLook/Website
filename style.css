@@ -493,10 +493,15 @@ body {
         max-width: 80%;
         margin: 10px auto;
     }
+    
+    .skills {
+        flex-direction: column;
+        max-width: 90%;
+    }
 
     .skills-container {
         flex-direction: column;
-        max-width: 30%;
+        max-width: 100%;
     }
 
     .skills-image img {
