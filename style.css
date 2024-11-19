@@ -506,16 +506,6 @@ body {
 
     }
 
-    .skills-image img {
-        max-width: 80%;
-        margin: 10px auto;
-    }
-
-    .skills-icons {
-        flex-direction: column;
-        max-width: 90%;
-    }
-
     .container {
         margin: 20px;
     }
