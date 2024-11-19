@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
         currentIndex = (currentIndex + 1) % slides.length;
         slider.scrollTo({
             left: slider.clientWidth * currentIndex,
-            behavior: "smooth",
         });
         if (currentIndex == 4) {
             currentIndex = 0;
