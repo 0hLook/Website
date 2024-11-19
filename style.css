@@ -495,21 +495,16 @@ body {
     }
 
     .skills-container {
-        width: 100%;
-        padding: 10px; 
+
     }
 
-    .skills-image img, 
-    .skills-icons .icon-border {
-        max-width: 100%; 
-        margin: 0 auto; 
+    .skills-image {
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 
     .skills-icons {
-        display: flex;
-        flex-wrap: wrap; 
-        justify-content: center; 
-        gap: 10px; 
+        margin-right: 0;
     }
 
     .container {
@@ -544,7 +539,9 @@ body {
     }
 
     .image-container2 img {
-
+        width: 100%;
+        height: auto;
+        margin: 0;
     }
 
     .overlay-text {
