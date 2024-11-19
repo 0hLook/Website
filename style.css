@@ -495,16 +495,17 @@ body {
     }
 
     .skills-container {
-
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .skills-image {
-        margin-right: 0;
-        margin-bottom: 20px;
+       
     }
 
     .skills-icons {
-        margin-right: 0;
+        
     }
 
     .container {
