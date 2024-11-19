@@ -495,7 +495,7 @@ body {
     }
 
     .skills-container {
-        margin-right: auto;
+        align-items: flex-start;
 
     }
 
