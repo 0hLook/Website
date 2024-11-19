@@ -496,6 +496,7 @@ body {
 
     .skills-container {
         align-items: flex-start;
+        max-width: 90%;
 
     }
 
