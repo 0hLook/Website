@@ -9,10 +9,16 @@ document.addEventListener("DOMContentLoaded", function () {
             left: slider.clientWidth * currentIndex,
             behavior: "smooth",
         });
+        if (currentIndex == 4) {
+            currentIndex = 0;
+        }
     }
 
-    setInterval(showNextSlide, 5000); // Change slide every 5.0 seconds
+    setInterval(showNextSlide, 2000); // Change slide every 5.0 seconds
 });
+
+
+
 
 document.querySelectorAll('.tab-button').forEach(button => {
     button.addEventListener('click', () => {
