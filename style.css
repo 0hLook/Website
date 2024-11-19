@@ -497,7 +497,7 @@ body {
     /* Skills Section Fixes */
     .skills {
         max-width: 100%;
-        padding: 10px;
+        padding: 30px;
         margin: 0 auto;
     }
 
@@ -527,7 +527,6 @@ body {
         justify-content: center; /* Center icons horizontally */
         gap: 10px; /* Add space between icons */
         margin-top: 10px;
-        margin-left: 500px;
     }
 
 
@@ -540,7 +539,6 @@ body {
         text-align: center;
         margin-top: 20px;
         font-size: 14px; /* Adjust font size for better readability */
-        margin-left: 500px;
     }
 
     /* Other Sections */
