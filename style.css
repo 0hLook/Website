@@ -522,8 +522,6 @@ body {
     }
 
     .skills-icons {
-        display: flex;
-        flex-wrap: wrap; /* Allow wrapping for icons */
         justify-content: center; /* Center icons horizontally */
         gap: 10px; /* Add space between icons */
         margin-top: 10px;
