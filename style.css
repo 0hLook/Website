@@ -568,9 +568,8 @@ body {
     }
 
     .image-container2 img {
-        width: 100%;
-        height: auto;
-        margin: 0;
+        max-width: 80%;
+        margin: 10px auto;
     }
 
     .overlay-text {
