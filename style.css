@@ -520,10 +520,10 @@ body {
     /* Skills Section Fixes */
     .skills {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         max-width: 100%;
         padding: 10px;
-        margin: 0 auto;
     }
 
     .skills-icons {
@@ -531,15 +531,14 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         height: auto;
+        margin-left: 50px;
     }
 
     .skills-icons i,
     .skills-icons img{
-        width: 15px;
-        height: 15px;
         margin: 5px;
     }
-    
+
     img, video, iframe {
         max-width: 100%;
         height: auto;
