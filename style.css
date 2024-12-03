@@ -125,28 +125,35 @@ body {
 }
 
 .skills {
-    margin-left: 700px;
+    display: flex; /* Ensures proper layout */
+    flex-direction: column; /* Stacks child elements vertically */
+    align-items: center; /* Centers content horizontally */
+    max-width: 100%; /* Prevents overflow */
+    margin: 0 auto; /* Centers the container on the page */
+    padding: 20px;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
 
 .skills-container {
     display: flex;
-    align-items: center; 
-    justify-content: center; 
-    margin-top: -75px;
-    
+    flex-wrap: wrap; /* Allows child elements to wrap */
+    justify-content: center; /* Centers child elements */
+    align-items: center;
+    gap: 20px; /* Adds spacing between elements */
+    width: 100%; /* Takes full width of the parent */
+    margin: 0 auto;
 }
 
 /* Image container */
 .skills-image {
-    height: auto;
-    margin-right: 200px;
-    display: block; 
+    max-width: 80%; /* Restricts image width to fit smaller screens */
+    margin: 20px auto;
     position: relative;
+    height: auto; /* Maintains aspect ratio */
     border-radius: 10px;
-    padding: 2em;
-    border: 5px solid aliceblue; 
-    z-index: 1;
+    border: 5px solid aliceblue;
+    overflow: hidden; /* Ensures content doesn't spill out */
 }
 
 .skills-image::before {
@@ -173,39 +180,28 @@ body {
 }
 
 
-/* Icons container */
-.skills-icons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 600px;
-}
 
-.LanguageIcons1 {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 70px;
-}
 
+.LanguageIcons1,
 .LanguageIcons2 {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 40px;
+    flex-wrap: wrap; /* Allows icons to wrap onto new lines */
+    justify-content: center; /* Centers icons horizontally */
+    gap: 15px; /* Adds spacing between icons */
+    margin: 20px auto; /* Ensures consistent vertical spacing */
+    width: 100%;
 }
 
 .icon-border {
-    position: relative;
-    border-radius: 15px;
-    background: #2c2d29;
-    padding: 20px;
+    width: 100px;
+    height: 100px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    width: 50px;
-    height: 50px;
+    align-items: center;
+    background: #2c2d29;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
 }
 
 .hover-text {
@@ -518,15 +514,28 @@ body {
     }
 
     /* Skills Section */
-    .skills-image {
-        max-width: 80%;
-        margin: 10px auto;
+    .skills {
+        flex-direction: column; /* Ensures vertical stacking */
+        padding: 10px;
     }
 
-    .skills {
-        flex-direction: column;
-        max-width: 90%;
-        margin-right: 700px;
+    .skills-image {
+        max-width: 90%; /* Makes the image responsive */
+    }
+
+    .skills-container {
+        flex-direction: column; /* Stacks elements vertically */
+        gap: 10px; /* Reduces spacing for smaller screens */
+    }
+
+    .LanguageIcons1,
+    .LanguageIcons2 {
+        gap: 10px; /* Reduces icon spacing */
+    }
+
+    .icon-border {
+        width: 40px; /* Smaller icons for mobile */
+        height: 40px;
     }
 
     /* Other Sections */
