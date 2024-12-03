@@ -413,7 +413,6 @@ body {
 #p6 {
     color: whitesmoke;
     text-align: center;
-    max-width: 100%;
 }
 
 #OneH2 {
@@ -546,6 +545,10 @@ body {
     }
 
     /* Other Sections */
+
+    #p4 {
+        margin-right: 30px;
+    }
     .container {
         margin: 20px;
     }
