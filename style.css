@@ -476,6 +476,11 @@ body {
     * {
         box-sizing: border-box;
     }
+
+    #p6 {
+        color: whitesmoke;
+        text-align: center;
+    }
     
     html, body {
         margin: 0;
