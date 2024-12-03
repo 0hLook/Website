@@ -528,13 +528,21 @@ body {
 
     .skills-icons {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         height: auto;
     }
 
-    .skills-icons i{
+    .skills-icons i,
+    .skills-icons img{
         width: 15px;
         height: 15px;
+        margin: 5px;
+    }
+    
+    img, video, iframe {
+        max-width: 100%;
+        height: auto;
     }
 
     .MoreLanSoon {
