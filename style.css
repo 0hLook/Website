@@ -520,20 +520,17 @@ body {
     /* Skills Section Fixes */
     .skills {
         flex-direction: column;
-        max-width: 100%;
+        max-width: 90%;
     }
 
     .skills-container {
         max-width: 100%;
+        flex-direction: column;
     }
     .skills-image {
         max-width: 80%;
         margin: 10px auto;
-    }
-
-    img, video, iframe {
-        max-width: 100%;
-        height: auto;
+        flex-direction: column;
     }
 
     .MoreLanSoon {
