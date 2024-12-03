@@ -553,7 +553,8 @@ body {
     /* Other Sections */
 
     #p4 {
-        margin-right: 30px;
+        text-align: center;
+        color: whitesmoke;
     }
     .container {
         margin: 20px;
