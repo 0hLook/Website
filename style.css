@@ -518,29 +518,7 @@ body {
     }
 
     /* Skills Section Fixes */
-    .skills {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 100%;
-        padding: 10px;
-        margin-left: 100px;
-    }
 
-    .p2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-
-    }
-
-    .skills-icons {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        height: auto;
-        margin-left: 50px;
-    }
 
     .skills-icons i,
     .skills-icons img{
