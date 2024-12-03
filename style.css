@@ -521,14 +521,12 @@ body {
     .skills {
         flex-direction: column;
         align-items: center;
-        flex-wrap: wrap;
         max-width: 90%;
     }
 
     .skills-container {
         max-width: 100%;
         flex-direction: column;
-        flex-wrap: wrap;
         align-items: center;
     }
     .skills-image {
