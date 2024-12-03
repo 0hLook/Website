@@ -497,7 +497,9 @@ body {
         max-width: 90%;
     }
 
-
+    .text-content {
+        max-width: 100%;
+    }
 
     .image-container {
         max-width: 80%;
@@ -524,6 +526,7 @@ body {
     .skills {
         flex-direction: column;
         max-width: 90%;
+        margin-right: 700px;
     }
 
     /* Other Sections */
