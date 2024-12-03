@@ -520,21 +520,22 @@ body {
     /* Skills Section Fixes */
     .skills {
         flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
         max-width: 90%;
     }
 
     .skills-container {
         max-width: 100%;
         flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
     }
     .skills-image {
         max-width: 80%;
         margin: 10px auto;
         flex-direction: column;
-    }
-
-    .MoreLanSoon {
-        text-align: center;
+        align-items: center;
     }
 
     /* Other Sections */
