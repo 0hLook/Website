@@ -517,20 +517,10 @@ body {
         flex-wrap: nowrap;
     }
 
-    /* Skills Section Fixes */
+    /* Skills Section */
     .skills {
         flex-direction: column;
-        justify-content: center;
-        max-width: 90%;
-    }
-
-    .skills-container {
         max-width: 100%;
-        flex-direction: column;
-    }
-    .skills-image {
-        max-width: 80%;
-        flex-direction: column;
     }
 
     /* Other Sections */
