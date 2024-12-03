@@ -496,39 +496,16 @@ body {
 
     /* Skills Section Fixes */
     .skills {
+        display: flex;
+        justify-content: center;
         max-width: 100%;
         padding: 10px;
         margin: 0 auto;
     }
 
-    .skills-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Center-align content */
-        width: 90%; /* Shrink width to fit smaller screens */
-        margin: 0 auto; /* Center the container */
-    }
-
-    .skills-image {
-        margin-bottom: 15px;
-        text-align: center;
-    }
-
-    .skills-image img {
-        max-width: 80%; /* Scale image proportionally */
-        height: auto;
-        display: block;
-        margin: 0 auto;
-    }
-
     .skills-icons {
-        text-align: center;
-        justify-content: center; /* Center icons horizontally */
-    }
-
-
-    .skills-icons img {
-        width: 36px; /* Adjust image size */
+        display: flex;
+        justify-content: center;
         height: auto;
     }
 
@@ -594,10 +571,6 @@ body {
         max-width: 50%;
     }
 
-    .skills-container {
-
-    }
-
     .skills-icons {
         margin-right: 100px;
     }
@@ -637,10 +610,6 @@ body {
     .about-me {
         margin: 50px auto;
         max-width: 80%;
-    }
-
-    .skills-container {
-        
     }
 
     .contact-box {
