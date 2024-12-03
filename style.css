@@ -519,63 +519,18 @@ body {
 
     /* Skills Section Fixes */
     .skills {
-        display: flex;
         flex-direction: column;
-        align-items: center; /* Center align all child elements */
-        max-width: 100%;
-        padding: 10px;
-        margin: 0 auto;
+        justify-content: center;
+        max-width: 90%;
     }
 
     .skills-container {
-        display: flex;
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center;
         max-width: 100%;
-        gap: 10px; /* Add spacing between sections */
+        flex-direction: column;
     }
-
     .skills-image {
         max-width: 80%;
-        margin: 10px auto;
-        text-align: center;
-    }
-
-    .skills-icons {
-        display: flex;
-        flex-direction: column; /* Stack icon groups vertically */
-        align-items: center;
-        gap: 20px; /* Add spacing between LanguageIcons1 and LanguageIcons2 */
-        width: 100%;
-    }
-
-    .LanguageIcons1,
-    .LanguageIcons2 {
-        display: flex;
-        flex-wrap: wrap; /* Allow icons to wrap within the available space */
-        justify-content: center; /* Center icons */
-        gap: 10px; /* Add spacing between individual icons */
-    }
-
-    .icon-border {
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 50px; /* Reduce the size of icons */
-        height: 50px;
-    }
-
-    .icon-border img,
-    .icon-border i {
-        width: 24px; /* Make icons smaller for mobile view */
-        height: 24px;
-    }
-
-    .MoreLanSoon {
-        text-align: center;
-        padding: 10px;
-        max-width: 90%;
     }
 
     /* Other Sections */
